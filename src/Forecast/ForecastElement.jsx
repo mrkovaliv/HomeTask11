@@ -86,7 +86,7 @@ class ForecastElement extends React.Component {
                 <div className={styles["weather__top"]}>
                     <div className={styles["weather__top-info"]}>
                         <div className={styles["weather__top-location"]}>
-                            <img src="./location.png" />
+                            <img src="./location.png" alt="location"/>
                             {location}
                         </div>
                         <div className={styles["weather__top-temper"]}>
@@ -99,7 +99,7 @@ class ForecastElement extends React.Component {
                         </div>
                     </div>
                     <div className={styles["weather__top-img"]}>
-                        <img src={getCommonState(commonState)} />
+                        <img src={getCommonState(commonState)} alt="weather" />
                     </div>
                 </div>
                 <div className={styles["weather__character"]}>

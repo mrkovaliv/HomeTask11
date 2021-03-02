@@ -9,6 +9,7 @@ class App extends React.Component {
     this.getconvertedDate = this.getconvertedDate.bind(this);
   }
 
+  // метод, щоб з об'єкта new Date() зробити валідну дату для передачі в дочірний компонент, (дату типу 31/02/2021) 
   getconvertedDate(nday = 0) {
     let rez = "";
     let today = new Date();
